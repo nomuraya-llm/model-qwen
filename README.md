@@ -23,7 +23,23 @@
 
 ## クイックスタート
 
-### Ollama経由のインストール
+### 方法1: GGUF版（llamacpp）
+
+このリポジトリにGGUFファイルを配置して使用します。
+
+**ローカル配置済みモデル**:
+- qwen2.5-0.5b-instruct-q4_k_m.gguf (469MB)
+- qwen2.5-1.5b-instruct-q4_k_m.gguf (1.0GB)
+
+**ダウンロード可能なモデル**:
+```bash
+# Qwen2.5 3B Q4_K_M (2.0GB)
+wget https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/main/qwen2.5-3b-instruct-q4_k_m.gguf
+```
+
+**注意**: `*.gguf`ファイルはGit管理外（`.gitignore`で除外）
+
+### 方法2: Ollama経由のインストール
 
 ```bash
 # 7B版（推奨）
