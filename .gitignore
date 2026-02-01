@@ -1,2 +1,15 @@
-# GGUF model files (large binary files)
+# モデルファイル（容量大）
 *.gguf
+*.bin
+*.pth
+*.safetensors
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# ログ
+*.log
